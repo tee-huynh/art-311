@@ -53,10 +53,74 @@ h1{
   text-transform: uppercase;
   text-align: center;
   font-family: Helvetica;
-  font-size: 150px;
+  font-size: 100px;
   color: #fff;
-}
+} 
 
 header h1{}
 
+#right {
+  position:relative;
+  height:200px;
+  width:200px;
+  margin:0 auto;
+  top:-312px;
+  left:540px;
+}
 
+#right img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#right img.top:hover {
+  opacity:0;
+}
+
+#left {
+  position:relative;
+  height:200px;
+  width:200px;
+  margin:0 auto;
+  top:-512px;
+  left:-540px;
+}
+
+#left img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#left img.top:hover {
+  opacity:0;
+}
+
+#robot {
+  position:relative;
+  height:350px;
+  width:350px;
+  margin:0 auto;
+  top:-1212px;
+  left:-400px;
+}
+
+#robot img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#robot img.top:hover {
+  opacity:0;
+}
