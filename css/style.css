@@ -33,7 +33,7 @@ header
 {
   width: 100%;
   height: 100%;
-  background-image: url("CreateCharacterScreen.jpg");
+  background-image: url("../CreateCharacterScreen.jpg");
   background: #A0CFD3;
   top: 0;
   position: fixed;
