@@ -22,7 +22,7 @@ $(window).load(function(){
         footerHeight        = $('footer').height(),
         heightDocument      = (windowHeight) + ($('.content').height()) + ($('footer').height()) - 20;
 
-    // Definindo o tamanho do elemento pra animar
+    // Definindo o tamanho do elemento pra animar // test comment
     $('#scroll-animate, #scroll-animate-main').css({
         'height' :  heightDocument + 'px'
     });
