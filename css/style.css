@@ -34,7 +34,8 @@ header
   width: 100%;
   height: 100%;
   /*background-image: url(../ChooseCharacterScreen.png);*/
-  background: #A0CFD3;
+  /*background: #A0CFD3;*/
+  background-image: url(http://i1244.photobucket.com/albums/gg568/teehuynhsama/ChooseCharacterScreen_zpsontfzuwc.png);
   top: 0;
   position: fixed;
   z-index: -1;
@@ -109,7 +110,7 @@ header h1{}
   height:350px;
   width:350px;
   margin:0 auto;
-  top:-1282px;
+  top:-1250px;
   left:-400px;
 }
 
