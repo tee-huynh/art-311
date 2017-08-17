@@ -1,7 +1,7 @@
 /* Article:  https://superdevresources.com/full-background-image-css/ */
 /* https://codepen.io/kanishkkunal/pen/MYbmzN */
 body {
-  background: url(https://i.imgur.com/RAfMHzj.png) no-repeat center center fixed;
+  background: url(https://i.imgur.com/i1Kywp3.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -51,7 +51,7 @@ p {
 .card__front,
 .card__back {
   position: absolute;
-  top: 250px;
+  top: 275px;
   left: 100px;
   width: 323px;
   height: 459px;
