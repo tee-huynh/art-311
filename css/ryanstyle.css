@@ -23,7 +23,6 @@ h1{
   font-family: Gill Sans, Verdana;
  font-size: 30px;
  line-height: 14px;
- text-transform: uppercase;
  letter-spacing: 2px;
  font-weight: bold;
 }
@@ -36,5 +35,4 @@ p {
  line-height: 1.1em;
  margin:0px;
  text-align: center;
- text-transform: uppercase;
 }
