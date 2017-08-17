@@ -36,6 +36,7 @@ header
   /*background-image: url(../ChooseCharacterScreen.png);*/
   /*background: #A0CFD3;*/
   background-image: url("../images/ChooseCharacterScreen.png");
+  background-repeat: no-repeat;
   top: 0;
   position: fixed;
   z-index: -1;
