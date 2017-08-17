@@ -1,129 +1,86 @@
-#scroll-animate
-{
-  overflow: hidden;
+/* Article:  https://superdevresources.com/full-background-image-css/ */
+/* https://codepen.io/kanishkkunal/pen/MYbmzN */
+body {
+  background: url(https://i.imgur.com/RAfMHzj.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-#scroll-animate-main
-{
-  width: 100%;
-  left: 0;
-  position: fixed;
-}
-
-#heightPage,
-#heightScroll
-{
-  width: 10px;
-  top: 0;
-  position: absolute;
-  z-index: 99;
-}
-
-#heightPage
-{
-  left: 0;
-}
-
-#heightScroll
-{
-  right: 0;
-}
-
-header
-{
-  width: 100%;
-  height: 100%;
-  /*background-image: url(../ChooseCharacterScreen.png);*/
-  /*background: #A0CFD3;*/
-  background-image: url("../images/ChooseCharacterScreen.png");
-  background-size:cover;
-  top: 0;
-  position: fixed;
-  z-index: -1;
-}
-
-.wrapper-parallax {
-  margin-top: 100%;
-  margin-bottom: 300px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-}
-
-h1{
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  text-transform: uppercase;
+.content {
   text-align: center;
-  font-family: Helvetica;
-  font-size: 70px;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
-} 
-
-header h1{}
-
-#right {
-  position:relative;
-  height:200px;
-  width:200px;
-  margin:0 auto;
-  top:-312px;
-  left:540px;
+  margin: 40px auto;
+  background: rgba(22,22,22, 0.5);
+  width: 100%;
+  max-width: 960px;
+  border-radius: 5px;
+  padding-bottom: 32px;
 }
 
-#right img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+h1, h1 a {
+  min-height: 120px;
+  width: 90%;
+  max-width: 700px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 80px;
 }
 
-#right img.top:hover {
-  opacity:0;
+p {
+  width: 90%;
+  max-width: 700px;
+  text-align: left;
+  margin: 0 auto;
+  padding-bottom: 32px;
 }
 
-#left {
-  position:relative;
-  height:200px;
-  width:200px;
-  margin:0 auto;
-  top:-512px;
-  left:-540px;
+.card {
+  position: relative;
+  float: left;
+  padding-bottom: 25%;
+  width: 25%;
+  text-align: center;
 }
 
-#left img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+.card__front,
+.card__back {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  width: 323px;
+  height: 459px;
 }
 
-#left img.top:hover {
-  opacity:0;
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
 }
 
-#robot {
-  position:relative;
-  height:350px;
-  width:350px;
-  margin:0 auto;
-  top:-1250px;
-  left:-400px;
+.card__front {
+  background: url(https://i.imgur.com/vLYaXkn.png);
 }
 
-#robot img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+.card__back {
+  background: url(https://i.imgur.com/wONyNBE.png);
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
 }
 
-#robot img.top:hover {
-  opacity:0;
+.card.effect__hover:hover .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__hover:hover .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
 }
