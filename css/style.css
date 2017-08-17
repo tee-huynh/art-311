@@ -1,7 +1,7 @@
 /* Article:  https://superdevresources.com/full-background-image-css/ */
 /* https://codepen.io/kanishkkunal/pen/MYbmzN */
 body {
-  background: url(https://i.imgur.com/i1Kywp3.png) no-repeat center center fixed;
+  background: url(https://i.imgur.com/aIosRjK.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -81,6 +81,80 @@ p {
 }
 
 .card.effect__hover:hover .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+.card__front2,
+.card__back2 {
+  position: absolute;
+  top: 275px;
+  left: 100px;
+  width: 323px;
+  height: 459px;
+}
+
+.card__front2,
+.card__back2 {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card__front2 {
+  background: url(https://i.imgur.com/V3oKIYy.png);
+}
+
+.card__back2 {
+  background: url(https://i.imgur.com/zNiv92y.png);
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__hover2:hover .card__front2 {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__hover2:hover .card__back2 {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+.card__front3,
+.card__back3 {
+  position: absolute;
+  top: 275px;
+  left: 100px;
+  width: 323px;
+  height: 459px;
+}
+
+.card__front3,
+.card__back3 {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card__front3 {
+  background: url(https://i.imgur.com/TmeNTNt.png);
+}
+
+.card__back3 {
+  background: url(https://i.imgur.com/A9hiP9p.png);
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__hover3:hover .card__front3 {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__hover3:hover .card__back3 {
   -webkit-transform: rotateY(0);
           transform: rotateY(0);
 }
