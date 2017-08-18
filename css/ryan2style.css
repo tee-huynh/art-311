@@ -38,12 +38,12 @@ p {
 }
 
 #regret {
-  position:relative;
+  position:absolute;
   height:497px;
   width:52px;
   margin:0 auto;
-  top:-50px;
-  left:-706px;
+  top:530px;
+  left:82px;
 }
 
 #regret img {
