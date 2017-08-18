@@ -1,0 +1,38 @@
+/* Article:  https://superdevresources.com/full-background-image-css/ */
+body {
+  background: url(https://i.imgur.com/xoROefa.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  margin: 110px auto;
+  background: rgba(22,22,22, 0.5);
+  width: 100%;
+  max-width: 1040px;
+  border-radius: 5px;
+  padding-bottom: 32px;
+}
+
+h1{
+  font-family: Gill Sans, Verdana;
+ font-size: 30px;
+ line-height: 14px;
+ letter-spacing: 2px;
+ font-weight: bold;
+}
+
+p {
+ font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+ font-weight: normal;
+        font-size: 1.75em;
+ letter-spacing: .2em;
+ line-height: 1.1em;
+ margin:0px;
+ text-align: center;
+}
