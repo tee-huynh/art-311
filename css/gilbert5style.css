@@ -36,3 +36,13 @@ p {
  margin:0px;
  text-align: center;
 }
+
+    .hint {
+        opacity: 0;
+        filter: alpha(opacity=50); /* For IE8 and earlier */
+    }
+
+    .hint:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
