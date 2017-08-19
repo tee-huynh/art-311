@@ -1,6 +1,6 @@
 /* Article:  https://superdevresources.com/full-background-image-css/ */
 body {
-  background: url(https://i.imgur.com/nFcShar.png) no-repeat center center fixed;
+  background: url(https://i.imgur.com/TsMvmvm.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +14,7 @@ body {
   margin: 80px auto;
   background: rgba(22,22,22, 0.5);
   width: 100%;
-  max-width: 1040px;
+  max-width: 1440px;
   border-radius: 5px;
   padding-bottom: 32px;
 }
